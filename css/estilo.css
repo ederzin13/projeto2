@@ -1,0 +1,213 @@
+html {
+    font-size: 16px;
+    background: url(../img/barcos.webp);
+    background-repeat: no-repeat;
+    background-color: #f8f6f7;
+    font-family: 'Mulish', sans-serif;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.largura {
+    width: 1000px;
+    min-width: 1000px;
+    margin: 0 auto;
+}
+
+.top {
+    display: flex;
+    height: 2em;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+}
+
+.um {
+    color: #f35926;
+    font-size: 2em;
+}
+
+.dois {
+    color: #fcb929;
+    font-size: 2em;
+}
+
+.tres {
+    color: #00b049;
+    font-size: 2em;
+}
+
+.viagens {
+    font-weight: bold;
+}
+
+.menu {
+    word-spacing: 1em;
+    margin-top: 10px;
+}
+
+.passagens {
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    text-align: justify;
+    margin-top: 5em;
+    border-radius: 10px;
+    padding: 2em;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.caixa {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+input,
+button {
+    height: 2.8em;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+::placeholder {
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+
+button {
+    color: white;
+    background-color: red;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: rgb(189, 0, 0);
+    cursor: pointer;
+}
+
+.barcos {
+    height: 450px;
+}
+
+.caixinha,
+.caixinha2,
+.caixinha3,
+.caixinha4,
+.caixinha5,
+.caixinha6,
+.caixinha7,
+.caixinha8 {
+    height: 200px;
+    width: 200px;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.vermais {
+    color: black;
+    font-weight:initial;
+    background-color: white;
+    border: 0;
+    border-radius: 1.5em;
+    width: 100px;
+    box-shadow: 0 0 4px;
+    cursor: pointer;
+}
+
+.vermais:hover {
+    background-color: rgb(233, 233, 233);
+}
+
+h3 {
+    margin-top: 2.5em;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0 0 4px black;
+    font-family: 'Mulish', sans-serif;
+}
+
+p {
+    margin: 1em 0;
+    font-size: 1.6em;
+    font-weight: bold;
+    text-shadow: 0 0 4px black;
+    color: white;
+    font-family: 'Mulish', sans-serif;
+}
+
+article {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.vooscomdesconto {
+    margin-bottom: 1em;
+}
+
+footer {
+    background-color: white;
+    height: 70px;
+    margin-top: 4em;
+}
+
+.caixinha {
+    background: url(../img/rio.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.caixinha2 {
+    background: url(../img/belo-horizonte.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.caixinha3 {
+    background: url(../img/bonito.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.caixinha4 {
+    background: url(../img/sao-paulo.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.caixinha5 {
+    background: url(../img/foz.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.caixinha6 {
+    background: url(../img/maceio.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.caixinha7 {
+    background: url(../img/salvador.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.caixinha8 {
+    background: url(../img/fortaleza.webp);
+    background-size: cover;
+    background-position: center;
+}
